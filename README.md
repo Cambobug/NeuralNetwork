@@ -10,3 +10,5 @@ While testing the different numbers of layers, I saw a few trends.
     5. After adding one layer, the accuracy of the final testing set did not increase much and remained the same
 
 From my observations, the network with the most layers will provide the best accuracy and will have the highest accuracy ceiling making it the best to use when looking for accurate results. However, this accuracy came with the drawback of time spent training the network. So, if you are looking for accuracy, choose the network with the highest number of layers but if you are looking for accuracy by time spent, I would choose either the network with no hidden layers or with one hidden layer.
+
+This network uses the mnist image dataset.
