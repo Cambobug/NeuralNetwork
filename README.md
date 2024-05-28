@@ -1,11 +1,9 @@
-Assignment 4 - Cameron Fraser
-
 In order to run the program you must navigate to the directory that the programs are in then in the terminal you need to run the command "python network.py".
 
 While testing the different numbers of layers, I saw a few trends. 
     1. As the number of layers went up in the network, so did the ceiling for the accuracy for the network. 
-    2. As the number of layers went up, the time it took for the network to finish training increased very quickly
-    3. The less layers there were in the network, the higher starting accuracy
+    2. As the number of layers went up, the time it took for the network to finish training increased very rapidly
+    3. The fewer layers there were in the network, the higher the starting accuracy
     4. The more layers there were, the less each individual weight impacted the final result, so the accuracy and loss curves were smoother with more layers
     5. After adding one layer, the accuracy of the final testing set did not increase much and remained the same
 
